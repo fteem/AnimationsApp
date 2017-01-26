@@ -12,6 +12,8 @@
 		882973E71E3976CD00F76CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882973E51E3976CD00F76CDF /* Main.storyboard */; };
 		882973E91E3976CD00F76CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882973E81E3976CD00F76CDF /* Assets.xcassets */; };
 		882973EC1E3976CD00F76CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882973EA1E3976CD00F76CDF /* LaunchScreen.storyboard */; };
+		882973F61E3976E300F76CDF /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 882973F41E3976E300F76CDF /* penguin.png */; };
+		882973F71E3976E300F76CDF /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882973F51E3976E300F76CDF /* penguin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		882973E81E3976CD00F76CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		882973EB1E3976CD00F76CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		882973ED1E3976CD00F76CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882973F41E3976E300F76CDF /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		882973F51E3976E300F76CDF /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,19 @@
 				882973E51E3976CD00F76CDF /* Main.storyboard */,
 				882973E81E3976CD00F76CDF /* Assets.xcassets */,
 				882973EA1E3976CD00F76CDF /* LaunchScreen.storyboard */,
+				882973F31E3976E300F76CDF /* Content */,
 				882973ED1E3976CD00F76CDF /* Info.plist */,
 			);
 			path = AnimationsApp;
+			sourceTree = "<group>";
+		};
+		882973F31E3976E300F76CDF /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				882973F41E3976E300F76CDF /* penguin.png */,
+				882973F51E3976E300F76CDF /* penguin@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882973F61E3976E300F76CDF /* penguin.png in Resources */,
 				882973EC1E3976CD00F76CDF /* LaunchScreen.storyboard in Resources */,
 				882973E91E3976CD00F76CDF /* Assets.xcassets in Resources */,
 				882973E71E3976CD00F76CDF /* Main.storyboard in Resources */,
+				882973F71E3976E300F76CDF /* penguin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
